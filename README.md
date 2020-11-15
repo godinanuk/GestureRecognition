@@ -8,3 +8,4 @@ I will run through most of the famous pre-trained models and models which we cre
 2. MobileNet V2 - results - best validation accuracy 81% - best train accuracy 82% - epochs -> 30 with earlystopping - trainable parameters 33,296,389 -> image size 160x160x3
 3. ResNet50 - results - best validation accuracy 50% - best train accuracy 43% - epochs -> 30 with earlystopping - trainable parameters 34,082,821 -> image size 120x120x3
 4. VGG16 - results - best validation accuracy 80% - best train accuracy 86% - epochs -> 30 with earlystopping - trainable parameters 13,635,589 -> image size 160x160x3
+5. Inception V3 Fine Tuning V1 - results - best validation accuracy 69% - best train accuracy 66% - epochs -> 30 with earlystopping - trainable parameters 2,625,541 -> image size 160x160x3 -- Replaced Flatten Layer with Global Average Pooling Layer.  We can see the trainable parameters come down from 19 million to 2 million plus.
