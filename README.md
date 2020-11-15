@@ -19,4 +19,4 @@ I will run through most of the famous pre-trained models and models which we cre
 
 Models and/or modifications which did not work well.
 
-a. Inception V3 Fine Tuning V1 - results - best validation accuracy 69% - best train accuracy 66% - epochs -> 30 with earlystopping - trainable parameters 2,625,541 -> image size 160x160x3 -- Replaced Flatten Layer with Global Average Pooling Layer.  We can see the trainable parameters come down from 19 million to 2 million plus.
+a. Inception V3 Fine Tuning V1 - results - best validation accuracy 40% - best train accuracy 36% - epochs -> 30 with earlystopping - trainable parameters 2,625,541 -> image size 160x160x3 -- Replaced Flatten Layer with Global Average Pooling Layer.  We can see the trainable parameters come down from 19 million to 2 million plus.
