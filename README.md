@@ -9,7 +9,7 @@ I will run through most of the famous pre-trained models and models which we cre
 3. ResNet50 - results - best validation accuracy 50% - best train accuracy 43% - epochs -> 30 with earlystopping - trainable parameters 34,082,821 -> image size 120x120x3
 4. VGG16 - results - best validation accuracy 80% - best train accuracy 86% - epochs -> 30 with earlystopping - trainable parameters 13,635,589 -> image size 160x160x3.  VGG16 model's runtime is at least 10 times more than the highest time consuming model we have seen.
 5. VGG19 - results - best validation accuracy 72% - best train accuracy 76% - epochs -> 30 with earlystopping - trainable parameters 13,635,589 -> image size 160x160x3.  VGG19 model's runtime too is at least 10 times more than the highest time consuming model we have seen.
-
+6. VGG19 Fine Tuned Model V1- results - best validation accuracy 72% - best train accuracy 76% - epochs -> 30 with earlystopping - trainable parameters 52,957,189 -> image size 160x160x3.  VGG19 model's runtime too is at least 10 times more than the highest time consuming model we have seen.
 
 
 
