@@ -1,5 +1,7 @@
 # GestureRecognition
 
+Provided below are details of different models exeuction details for comparison.
+
 
 | Model | Trainable parameters | Execution time | Best validation loss | Best validation accuracy |
 |-------|----------------------|----------------|----------------------|--------------------------|
