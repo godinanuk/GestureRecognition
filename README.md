@@ -6,7 +6,6 @@ Provided below are details of different models exeuction details for comparison.
 | Model                | Trainable parameters | Execution time | Best validation loss | Best validation accuracy |
 |----------------------|----------------------|----------------|----------------------|--------------------------|
 | Conv3D with softmax  | 7,722,101            | 94 minutes     | 0.6530               | 0.9040                   |
-|----------------------|----------------------|----------------|----------------------|--------------------------|
 | Conv3D with sigmoid  | 7,722,101            | 90 minutes     | 0.6023               | 0.8920                   |
 
 
