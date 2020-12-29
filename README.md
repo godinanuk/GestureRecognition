@@ -7,7 +7,7 @@ Provided below are details of different models exeuction details for comparison.
 |----------------------|----------------------|----------------|----------------------|--------------------------|
 | Conv3D with softmax  | 7,722,101            | 94 minutes     | 0.6530               | 0.9040                   |
 | Conv3D with sigmoid  | 7,722,101            | 90 minutes     | 0.6023               | 0.8920                   |
-
+| Conv2D + GRU         | 5,304,869            | 64 minutes     | 0.2933               | 0.8760                   |
 
 
 
@@ -20,3 +20,4 @@ Additional info:
 Points noted:
 -------------
 1. We can notice that for Conv3D model, we have different performance for different activation functions softmax and sigmoid. Softmax activation function gave slightly better performance where as sigmoid on slightly overfitting side.  This might just be a one-off case.
+2. Conv2D + GRU model early stopping occurred after 33 epochs resulting end to end execution time of 64 minutes with betterment of validation loss, not too much loss in validation accuracy; compared to Conv3D models about 1.5% lesser validation accuracy. Trainable parameters are 2.5 million less than Conv3D models.
