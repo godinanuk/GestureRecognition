@@ -9,6 +9,7 @@ Provided below are details of different models exeuction details for comparison.
 | Conv3D with sigmoid  | 7,722,101            | 90 minutes     | 0.6023               | 0.8920                   |
 | Conv2D + GRU         | 5,304,869            | 64 minutes     | 0.2933               | 0.8760                   |
 | Conv2D + LSTM        | 5,500,965            | 52 minutes     | 0.3127               | 0.8720                   |
+| Conv2D + GRU + VGG16 |   306,965            | 113 minutes    | 0.3336               | 0.8540                   |
 
 
 Additional info:
