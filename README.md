@@ -6,7 +6,7 @@ Provided below are details of different models exeuction details for comparison.
 | Model                                        | Trainable parameters | Execution time | Best validation loss | Best validation accuracy |
 |----------------------------------------------|----------------------|----------------|----------------------|--------------------------|
 | Conv3D with softmax - filters(8,16,32)       | 7,722,101            | 94 minutes     | 0.6530               | 0.9040                   |
-| Conv3D with softmax - filters(16,32,64)      | 14,974,757           | 94 minutes     | 0.6530               | 0.9040                   |
+| Conv3D with softmax - filters(16,32,64)      | 14,974,757           | 23 minutes     | 1.1873               | 0.8020                   |
 | Conv3D with sigmoid                          | 7,722,101            | 90 minutes     | 0.6023               | 0.8920                   |
 | Conv2D + GRU with sigmoid                    | 5,304,869            | 64 minutes     | 0.2933               | 0.8760                   |
 | Conv2D + LSTM with sigmoid                   | 5,500,965            | 52 minutes     | 0.3127               | 0.8720                   |
