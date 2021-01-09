@@ -30,5 +30,6 @@ Points noted:
 4. Models using Transfer Learning with pretrained models did not do better either on validation loss or on validation accuracy.
 
 
-Best Model based on validation loss is Conv2D + GRU with sigmoid
-Best Model based on validation accuracy is Conv3D with softmax
+**Best Model based on validation loss is Conv2D + GRU with sigmoid**
+
+**Best Model based on validation accuracy is Conv3D with softmax**
