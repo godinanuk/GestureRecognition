@@ -3,15 +3,15 @@
 Provided below are details of different models exeuction details for comparison.
 
 
-| Model                      | Trainable parameters | Execution time | Best validation loss | Best validation accuracy |
-|----------------------------|----------------------|----------------|----------------------|--------------------------|
-| Conv3D with softmax        | 7,722,101            | 94 minutes     | 0.6530               | 0.9040                   |
-| Conv3D with sigmoid        | 7,722,101            | 90 minutes     | 0.6023               | 0.8920                   |
-| Conv2D + GRU               | 5,304,869            | 64 minutes     | 0.2933               | 0.8760                   |
-| Conv2D + LSTM              | 5,500,965            | 52 minutes     | 0.3127               | 0.8720                   |
-| Conv2D + GRU + VGG16       |   306,965            | 113 minutes    | 0.3336               | 0.8540                   |
-| Conv2D + GRU + InceptionV3 |   536,341            | 92 minutes     | 0.4195               | 0.8420                   |
-| Conv2D + GRU + Resnet50    | 2,109,205            | 69 minutes     | 0.4973               | 0.8000                   |
+| Model                                  | Trainable parameters | Execution time | Best validation loss | Best validation accuracy |
+|----------------------------------------|----------------------|----------------|----------------------|--------------------------|
+| Conv3D with softmax                    | 7,722,101            | 94 minutes     | 0.6530               | 0.9040                   |
+| Conv3D with sigmoid                    | 7,722,101            | 90 minutes     | 0.6023               | 0.8920                   |
+| Conv2D + GRU with sigmoid              | 5,304,869            | 64 minutes     | 0.2933               | 0.8760                   |
+| Conv2D + LSTM with sigmoid             | 5,500,965            | 52 minutes     | 0.3127               | 0.8720                   |
+| Conv2D + GRU + VGG16 with sigmoid      |   306,965            | 113 minutes    | 0.3336               | 0.8540                   |
+| Conv2D + GRU + InceptionV3 with sigmoid|   536,341            | 92 minutes     | 0.4195               | 0.8420                   |
+| Conv2D + GRU + Resnet50 with sigmoid   | 2,109,205            | 69 minutes     | 0.4973               | 0.8000                   |
 
 
 Additional info:
